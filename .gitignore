@@ -1,0 +1,84 @@
+﻿############################
+# Build Folders
+############################
+bin/
+obj/
+out/
+publish/
+dist/
+
+############################
+# User & Machine Settings
+############################
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+.vs/
+.vscode/
+
+############################
+# Secrets & App Config
+############################
+appsettings.json
+appsettings.*.json
+Properties/launchSettings.json
+
+# Environment files
+*.env
+
+############################
+# Logs
+############################
+*.log
+logs/
+Logs/
+
+############################
+# Cache & Temp
+############################
+*.tmp
+*.temp
+*.cache
+*.config
+*~ 
+
+############################
+# NuGet
+############################
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+############################
+# JetBrains Rider (Optional)
+############################
+.idea/
+*.sln.iml
+
+############################
+# HTTP Test Files
+############################
+*.http
+
+############################
+# Certificates
+############################
+*.pfx
+*.p12
+
+############################
+# EF Core Migrations (Optional)
+# Uncomment if you want to exclude migrations from repo
+############################
+# Migrations/
+
+############################
+# Other
+############################
+Thumbs.db
+desktop.ini
